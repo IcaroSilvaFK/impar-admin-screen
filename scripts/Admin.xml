@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+  <pnp:Preferences Generator="PnP.Framework, Version=1.17.30.0, Culture=neutral, PublicKeyToken=0d501f89f11b748c" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-09247748FF05493E880E8707C98B1280">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-09247748FF05493E880E8707C98B1280" Version="1" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Admin" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Admin" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Admin/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Admin/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Admin/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage="">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+          <pnp:Views>
+            <View Name="{A867640E-4DC1-4766-9BE0-E34DD30A8C73}" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="Todos os Itens" Url="{site}/Lists/Admin/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+              <Query />
+              <ViewFields>
+                <FieldRef Name="LinkTitle" />
+                <FieldRef Name="Category" />
+                <FieldRef Name="Description" />
+                <FieldRef Name="Link" />
+              </ViewFields>
+              <RowLimit Paged="TRUE">30</RowLimit>
+              <JSLink>clienttemplates.js</JSLink>
+            </View>
+          </pnp:Views>
+          <pnp:Fields>
+            <Field CustomFormatter="{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Home&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-field-fontSizeSmall sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Teste 1&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-field-fontSizeSmall sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Teste 2&quot;]},&quot;sp-css-backgroundColor-BgGold sp-field-fontSizeSmall sp-css-color-GoldFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;&quot;]},&quot;&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Teste 3&quot;]},&quot;sp-css-backgroundColor-BgCoral sp-field-fontSizeSmall sp-css-color-CoralFont&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;@currentField&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Home&quot;]},&quot;sp-field-fontSizeSmall sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Teste 1&quot;]},&quot;sp-field-fontSizeSmall sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Teste 2&quot;]},&quot;sp-field-fontSizeSmall sp-css-color-GoldFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;&quot;]},&quot;&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;@currentField&quot;,&quot;Teste 3&quot;]},&quot;sp-field-fontSizeSmall sp-css-color-CoralFont&quot;,&quot;&quot;]}]}]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}" DisplayName="Category" FillInChoice="FALSE" Format="Dropdown" IsModern="TRUE" Name="Category" Title="Category" Type="Choice" ID="{382e3278-8a5c-4b8f-9162-e6ba180ffed5}" SourceID="{{listid:Admin}}" StaticName="Category" ColName="nvarchar7" RowOrdinal="0">
+              <CHOICES>
+                <CHOICE>Home</CHOICE>
+                <CHOICE>Teste 1</CHOICE>
+                <CHOICE>Teste 2</CHOICE>
+                <CHOICE>Teste 3</CHOICE>
+              </CHOICES>
+            </Field>
+            <Field AppendOnly="FALSE" DisplayName="Description" Format="Dropdown" IsModern="TRUE" IsolateStyles="FALSE" Name="Description" RichText="FALSE" RichTextMode="Compatible" Title="Description" Type="Note" ID="{d28dcc4b-9d01-42e5-a062-3f1dd86c2b2d}" SourceID="{{listid:Admin}}" StaticName="Description" ColName="ntext2" RowOrdinal="0" />
+            <Field AppendOnly="FALSE" DisplayName="Link" Format="Dropdown" IsModern="TRUE" IsolateStyles="FALSE" Name="Link" RichText="FALSE" RichTextMode="Compatible" Title="Link" Type="Note" ID="{c2a99e89-255c-4a19-b1b2-c987a6abcb6c}" SourceID="{{listid:Admin}}" StaticName="Link" ColName="ntext3" RowOrdinal="0" />
+          </pnp:Fields>
+          <pnp:FieldRefs>
+            <pnp:FieldRef ID="fa564e0f-0c70-4ab9-b863-0177e6ddd247" Name="Title" DisplayName="Title" />
+            <pnp:FieldRef ID="76d13cd2-1bae-45a5-8b74-545b87b65037" Name="_ColorTag" DisplayName="Color Tag" />
+          </pnp:FieldRefs>
+          <pnp:DataRows UpdateBehavior="Overwrite">
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Banner Principal</pnp:DataValue>
+              <pnp:DataValue FieldName="Category">Home</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Desperte o potencial máximo do seu espaço com este Banner Principal impactante! Projetado para capturar a atenção e transmitir sua mensagem com clareza e estilo, ele é a peça central perfeita para qualquer ambiente</pnp:DataValue>
+              <pnp:DataValue FieldName="Link">https://www.google.com.br/?hl=pt-BR</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">100</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">1_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo"></pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Banner Secundário</pnp:DataValue>
+              <pnp:DataValue FieldName="Category">Home</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Complemente seu ambiente de trabalho ou estudo com este banner secundário versátil e elegante. </pnp:DataValue>
+              <pnp:DataValue FieldName="Link">https://www.google.com.br/?hl=pt-BR</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">200</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">2_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo"></pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Banner de Produtividade</pnp:DataValue>
+              <pnp:DataValue FieldName="Category">Home</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Transforme seu espaço em um centro de alta performance com este banner de produtividade! </pnp:DataValue>
+              <pnp:DataValue FieldName="Link">https://www.google.com.br/?hl=pt-BR</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">300</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">3_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo"></pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Benefícios</pnp:DataValue>
+              <pnp:DataValue FieldName="Category">Teste 1</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Descubra um mundo de vantagens com este item essencial! Projetado para otimizar seu dia a dia, ele oferece uma série de benefícios que vão desde o aumento da eficiência até a melhoria do seu bem-estar.</pnp:DataValue>
+              <pnp:DataValue FieldName="Link">https://www.google.com.br/?hl=pt-BR</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">400</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">4_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo"></pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Benefícios - Categorias</pnp:DataValue>
+              <pnp:DataValue FieldName="Category">Teste 1</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Explore um universo de vantagens cuidadosamente organizadas para atender às suas diversas necessidades! Nossas categorias de benefícios foram pensadas para simplificar sua busca e destacar como cada aspecto pode enriquecer sua vida.</pnp:DataValue>
+              <pnp:DataValue FieldName="Link">https://www.google.com.br/?hl=pt-BR</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">500</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">5_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo"></pnp:DataValue>
+            </pnp:DataRow>
+            <pnp:DataRow>
+              <pnp:DataValue FieldName="Title">Sistemas</pnp:DataValue>
+              <pnp:DataValue FieldName="Category">Teste 3</pnp:DataValue>
+              <pnp:DataValue FieldName="Description">Mergulhe no universo dos sistemas, a espinha dorsal da organização e da eficiência! Seja explorando a complexidade dos sistemas computacionais que impulsionam o mundo digital</pnp:DataValue>
+              <pnp:DataValue FieldName="Link">https://www.google.com.br/?hl=pt-BR</pnp:DataValue>
+              <pnp:DataValue FieldName="Order">600</pnp:DataValue>
+              <pnp:DataValue FieldName="FileLeafRef">6_.000</pnp:DataValue>
+              <pnp:DataValue FieldName="MetaInfo"></pnp:DataValue>
+            </pnp:DataRow>
+          </pnp:DataRows>
+          <pnp:Webhooks>
+            <pnp:Webhook ServerNotificationUrl="https://brazilsouth1-0.pushnp.svc.ms/notifications?token=2d6e341f-2b92-4b82-ad44-22aa06da1663%2Fb!qLfAcY0GNEm7Uh1fbXpELU__lxyZIK1GoQqiKov-xh23y9Gv-DtsTYRvigGdCnsr" ExpiresInDays="1" />
+          </pnp:Webhooks>
+        </pnp:ListInstance>
+      </pnp:Lists>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
