@@ -73,7 +73,7 @@ export default function Admin(props: Props) {
         {welcomeMessage}
       </Alert>
       <Box py={2}>
-        <Typography variant="h4" component="h2">{title}</Typography>
+        <Typography variant="h6" component="h2">{title}</Typography>
         <Typography variant="caption" color="textSecondary" py={1}>{description}</Typography>
       </Box>
       {
