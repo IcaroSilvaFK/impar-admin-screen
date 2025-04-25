@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "impar-admin-screen-client-side-solution",
+    "id": "7f479b1b-c1c6-47b0-b0d9-1874cfda0052",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "impar-admin-screen description"
+      },
+      "longDescription": {
+        "default": "impar-admin-screen description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "impar-admin-screen Feature",
+        "description": "The feature that activates elements of the impar-admin-screen solution.",
+        "id": "1367d151-6139-4eb3-af62-4360fffab82f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/impar-admin-screen.sppkg"
+  }
+}

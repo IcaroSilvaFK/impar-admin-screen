@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.7",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "impar-admin-screen",
+    "libraryId": "7f479b1b-c1c6-47b0-b0d9-1874cfda0052",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "impar-admin-screen",
+    "solutionShortDescription": "impar-admin-screen description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
